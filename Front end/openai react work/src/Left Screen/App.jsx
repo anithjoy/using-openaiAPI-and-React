@@ -44,10 +44,6 @@ export default function App() {
   return (
     <>
       <div id="root1">
-        <div id="logo">
-          <h1>ChefGPT</h1>
-        </div>
-
         <FormItem
           addItem={addItem}
           searchRecipe={searchRecipe}

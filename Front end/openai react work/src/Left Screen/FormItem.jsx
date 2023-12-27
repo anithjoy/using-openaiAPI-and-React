@@ -24,21 +24,44 @@ export const FormItem = ({ addItem, searchRecipe, clearRecipe }) => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="item">Enter Items that you have</label>
-          <input
-            value={item}
-            type="text"
-            id="item"
-            onChange={(e) => {
-              setItem(e.target.value);
-            }}
-          ></input>
+        <div class="mb-3">
+          <label htmlFor="item" for="basic-url" class="form-label">
+            Enter Items that you have
+          </label>
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon3">
+              Items
+            </span>
+            <input
+              value={item}
+              onChange={(e) => {
+                setItem(e.target.value);
+              }}
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3 basic-addon4"
+            ></input>
+          </div>
         </div>
 
-        <button type="submit">Add item</button>
-        <button onClick={searchRecipeHandler}>Search Recipe</button>
-        <button onClick={clearRecipeHandler}>Clear All</button>
+        <button type="submit" class="btn btn-primary">
+          Add item
+        </button>
+        <button
+          onClick={searchRecipeHandler}
+          type="button"
+          class="btn btn-success"
+        >
+          Search Recipe
+        </button>
+        <button
+          onClick={clearRecipeHandler}
+          type="button"
+          class="btn btn-danger"
+        >
+          Clear All
+        </button>
       </form>
     </>
   );

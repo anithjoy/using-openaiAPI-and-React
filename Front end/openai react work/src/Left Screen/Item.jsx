@@ -4,8 +4,17 @@ export const Item = ({ item, deleteItem }) => {
   };
   return (
     <>
-      <li>{item.name}</li>
-      <button onClick={deleteItemHandler}>Delete</button>
+      <li class="list-group-item">
+        {item.name}
+
+        <button
+          onClick={deleteItemHandler}
+          type="button"
+          class="btn btn-outline-danger"
+        >
+          Delete
+        </button>
+      </li>
     </>
   );
 };
