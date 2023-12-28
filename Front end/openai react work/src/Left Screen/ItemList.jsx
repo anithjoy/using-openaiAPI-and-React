@@ -3,12 +3,16 @@ import { Item } from "./Item";
 export const ItemList = ({ itemList, deleteItem }) => {
   return (
     <>
-      <h1>This is Items List </h1>
+      <h1> Items List </h1>
 
       <ul class="list-group list-group-flush">
-        {itemList.map((item) => {
-          return <Item key={item.id} item={item} deleteItem={deleteItem} />;
-        })}
+        {itemList && itemList.length > 0 ? (
+          itemList.map((item) => (
+            <Item key={item.id} item={item} deleteItem={deleteItem} />
+          ))
+        ) : (
+          <li className="list-group-item">NONE</li>
+        )}
       </ul>
     </>
   );
