@@ -1,4 +1,4 @@
-/* body {
+body {
   justify-content: center;
 }
 #logo {
@@ -44,53 +44,4 @@
   flex: 1;
   background-color: antiquewhite;
   color: black;
-} */
-
-body {
-  padding: 0;
-  background-color: black;
-}
-#main {
-  background-color: antiquewhite;
-}
-#logo {
-  text-align: center;
-  background-color: antiquewhite;
-}
-
-#root1 {
-  background-color: black;
-  text-align: center;
-  color: antiquewhite;
-}
-
-.list-group-item {
-  background-color: rgb(159, 159, 159);
-  color: black;
-}
-#basic-url {
-  color: blue;
-}
-
-.input-group {
-  width: 50%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-span-input {
-  display: flex;
-  justify-content: center;
-}
-
-#root {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-#root2 {
-  text-align: center;
-  height: 23vw;
 }
