@@ -11,6 +11,7 @@ export const Item = ({ item, deleteItem }) => {
           onClick={deleteItemHandler}
           type="button"
           class="btn btn-outline-danger"
+          style={{ margin: "0 8px" }}
         >
           Delete
         </button>
