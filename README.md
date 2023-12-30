@@ -12,10 +12,10 @@ ChefGPT is a project that leverages the Assistants API to build an AI assistant 
 ## Getting Started
 
 1. Navigate to Project Directory
-2. Install dependencies by
+2. Install dependencies of Front end/openai react work and Backend by
    `npm install`
 3. Set up the configuration for the Assistants API. Obtain API keys and update the .env file in Backend
-4. `npm start`
+4. start project by using `npm run dev` in Front end/openai react work and Backend folder.
 
 ### Prerequisites
 

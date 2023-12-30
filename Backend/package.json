@@ -12,7 +12,7 @@
   "description": "trial project for openai",
   "main": "openai-test.js",
   "scripts": {
-    "dev": "nodemon api.js"
+    "dev": "node api.js"
   },
   "author": "",
   "license": "ISC"
