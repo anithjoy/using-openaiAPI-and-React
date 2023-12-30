@@ -12,9 +12,10 @@ ChefGPT is a project that leverages the Assistants API to build an AI assistant 
 ## Getting Started
 
 1. Navigate to Project Directory
-2. Install dependencies by npm install
+2. Install dependencies by
+   `npm install`
 3. Set up the configuration for the Assistants API. Obtain API keys and update the .env file in Backend
-4. npm start
+4. `npm start`
 
 ### Prerequisites
 
@@ -28,7 +29,7 @@ Make sure you have the following installed before running the project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/chefgpt.git
+   git clone https://github.com/anithjoy/using-openaiAPI-and-React.git
    ```
 
 ### Usage
