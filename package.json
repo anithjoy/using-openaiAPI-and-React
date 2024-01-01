@@ -1,0 +1,13 @@
+
+
+{
+  "name": "chefgpt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start:frontend && npm run start:backend",
+    "start:backend": "cd Backend && npm run dev",
+    "start:frontend": "cd \"Front end/openai react work\" && npm run dev"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
