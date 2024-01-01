@@ -10,8 +10,8 @@
   "name": "openapi-project",
   "version": "1.0.0",
   "description": "trial project for openai",
-  "main": "openai-test.js",
   "scripts": {
+    "start": "node api.js",
     "dev": "node api.js"
   },
   "author": "",
